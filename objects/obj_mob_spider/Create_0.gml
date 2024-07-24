@@ -1,13 +1,4 @@
-// Create Event of obj_mob_spider
-moving = false; // Initialize the moving flag
-
-// Randomly determine initial direction (left or right)
-if (random(2) == 0) {
-    direction = 0; // Move right
-} else {
-    direction = 180; // Move left
-}
-
-// Set speed
-speed = 1; // Adjust speed as needed
-moving = true; // Set moving flag to true
+hsp = 2; // Horizontal speed
+vsp = 0; // Vertical speed
+grv = 0.3; // Gravity
+move_dir = choose(-1, 1); // Initial movement direction (-1 for left, 1 for right)
