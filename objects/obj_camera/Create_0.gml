@@ -4,8 +4,8 @@ view_visible[0] = true;
 
 camera = camera_create();
 
-view_width = 1000;
-view_height = 800;
+view_width = 1280;
+view_height = 720;
 
 camera_set_view_size(camera, view_width, view_height);
 view_set_camera(0, camera);
