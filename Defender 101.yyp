@@ -38,6 +38,8 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},},
     {"id":{"name":"obj_mob_spider","path":"objects/obj_mob_spider/obj_mob_spider.yy",},},
+    {"id":{"name":"obj_movable","path":"objects/obj_movable/obj_movable.yy",},},
+    {"id":{"name":"obj_mvp","path":"objects/obj_mvp/obj_mvp.yy",},},
     {"id":{"name":"obj_player_spider","path":"objects/obj_player_spider/obj_player_spider.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
