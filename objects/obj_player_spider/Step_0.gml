@@ -48,3 +48,8 @@ var new_y = y + vsp;
 new_y = max(new_y, cam_y);
 new_y = min(new_y, cam_y + cam_h - sprite_height);
 y = new_y;
+
+// Cool down
+if (cooldown > 0) {
+    cooldown -= 1;
+}
