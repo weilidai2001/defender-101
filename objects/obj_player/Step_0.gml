@@ -24,7 +24,7 @@ if (!frozen) {
     // Get Player Input
     key_left = keyboard_check(vk_left);
     key_right = keyboard_check(vk_right);
-    key_jump = keyboard_check_pressed(vk_up);
+    key_jump = keyboard_check_pressed(vk_up) || mouse_check_button(mb_right);
 
     // Calculate movement
     var move = key_right - key_left;

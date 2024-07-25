@@ -12,8 +12,8 @@
   "name":"obj_player_spider",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Defender 101",
+    "path":"Defender 101.yyp",
   },
   "parentObjectId":{
     "name":"obj_mvp",
