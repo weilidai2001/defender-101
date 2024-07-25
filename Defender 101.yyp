@@ -34,6 +34,7 @@
   },
   "name":"Defender 101",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},},
     {"id":{"name":"obj_mob_spider","path":"objects/obj_mob_spider/obj_mob_spider.yy",},},
