@@ -21,10 +21,10 @@ if (frozen) {
 
 // Only process movement if not frozen
 if (!frozen) {
-    // Get Player Input
-    key_left = keyboard_check(vk_left);
-    key_right = keyboard_check(vk_right);
-    key_jump = keyboard_check_pressed(vk_up) || mouse_check_button(mb_right);
+    // Get Player Input (Keyboard and Gamepad)
+    key_left = keyboard_check(vk_left) || gamepad_axis_value(0, gp_axislh) < -0.2;
+    key_right = keyboard_check(vk_right) || gamepad_axis_value(0, gp_axislh) > 0.2;
+    key_jump = keyboard_check_pressed(vk_up) || gamepad_button_check_pressed(0, gp_face1);
 
     // Calculate movement
     var move = key_right - key_left;
